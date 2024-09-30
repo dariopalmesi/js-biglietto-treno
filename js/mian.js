@@ -18,7 +18,8 @@ console.log(kmNumber);
 // terza fase: elaborazione dati
 if (ageNumber > 18 && ageNumber < 65) {
     console.log(priceNumber * kmNumber);
-} else if (ageNumber < 18) {
-    console.log((priceNumber * kmNumber)*20 / 100 );
-    
+} else if (ageNumber.toFixed(2) < 18) {
+    console.log((priceNumber * kmNumber) * 20 / 100);
+} else if (ageNumber.toFixed(2) > 65) {
+    console.log((priceNumber * kmNumber) * 40 / 100);
 }
