@@ -6,7 +6,7 @@ let age;
 let km;
 
 // seconda face: raccolta dati
-const priceNumber = Number(window.prompt("Prezzo al kilometro"));
+const priceNumber = 0.21
 console.log(priceNumber);
 
 const ageNumber = Number(window.prompt("Età"));
